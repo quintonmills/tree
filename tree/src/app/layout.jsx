@@ -1,7 +1,6 @@
 import { Inter } from 'next/font/google'
 import './globals.css'
-import Button from "./components/button"
-
+//import bgImage from '../../public/bg.jpg';
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = {
@@ -13,8 +12,12 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={inter.className}>
-        <Button></Button>
-        {children}
+        <div 
+          //className="relative h-screen bg-center bg-cover"
+          //style={{backgroundImage: `url(${bgImage})`}}
+        >
+          {children}
+        </div>
       </body>
     </html>
   )
