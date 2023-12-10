@@ -12,7 +12,7 @@ export default function Home() {
       backgroundRepeat: "no-repeat",
       backgroundSize: "cover",
     }}>
-      <div className="h-screen w-full flex flex-col items-center">
+      <div className="h-screen w-full flex flex-col items-center p-20">
         <div> {/* This handles profile picture */}
           <ProfilePic></ProfilePic>
         </div>

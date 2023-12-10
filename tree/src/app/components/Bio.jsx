@@ -1,7 +1,7 @@
 export default function() {
     return(
-        <div>
-            Code advice from yours truley.
+        <div className="text-2xl">
+            Code advice from yours truly.
         </div>
     );
 }
